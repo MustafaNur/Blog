@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Press Start 2P', cursive;
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.box{
+    border: black 1px solid;
+    height: 700px;
+    margin-top: 150px;
+    border-radius: 15px;
+    background-color: #fde8ff;
+}
+.pp{
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -100px;
+    background-color: gray;
+}
+.icons{
+    width: 100%;
+    height: 50px;
+    border-bottom: solid 1px black;
+    
+    
+}
+.content{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: justify;
+    padding: 50px;
+    
+}
+i{
+    font-size: 50px;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    top: -100px;
+    padding: 80px 10px 0 120px; 
+    color: black;
+}
+.stick{
+    width: 100%;
+    background-color: #8b20a2;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+
+}
+.ability{
+    width: 80%;
+    margin: auto;
+    
+    text-align: justify;
+    padding: 25px;
+}
+.ability h3{
+    line-height: 80px;
+}
+.html5{
+    margin-top: -10px;
+}
+.html::after{
+    content: "";
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  left: 80%;
+  
+}
+.css::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    left: 65%;
+}
+.php::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    left: 5%;
+}
+.boot::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    left: 75%;
+}
+.html ,.css ,.php ,.boot{
+    padding-bottom: 60px;
+}
+.ability-i {
+    margin-top: 95px;
+    margin-left: 100px;
+}
+
+.ability-i i{
+    font-size: 60px;
+    padding: 40px;
+}
